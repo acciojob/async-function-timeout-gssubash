@@ -21,11 +21,11 @@ async function result(p1){
 }
        
 forms.addEventListener('submit',(e)=>{
-	console.log('2')
+	// console.log('2')
 	const obj = e.target;
 	const delayVal = obj.delay.value;
 	const res = obj.text.value;
-	console.log(obj);
+	// console.log(obj);
 	const pro = new Promise((resolve,reject)=>{
 		setTimeout(()=>{
 			resolve(res);
