@@ -14,7 +14,7 @@ async function result(p1){
 		
 	const val = await p1;
 	output.innerText = val;
-		console.log(val);
+		// console.log(val);
 	}catch(err){
 		console.log(err);
 	}
